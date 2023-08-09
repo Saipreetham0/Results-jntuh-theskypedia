@@ -1,0 +1,272 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+  border: 1px solid black;
+  /* border-collapse: separate; */
+  border-spacing: 2px;
+  width: 100%;
+  border-bottom-width: 1px;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.pass {
+  background-color: #d9ffb3;
+}
+
+.fail {
+  background-color: #ffb3b3;
+}
+
+.control-dots,
+.carousel-status {
+  visibility: hidden;
+}
+
+.control-arrow:hover {
+  background: none;
+}
+
+/* tr:nth-child(odd) {
+    background-color: #8080800f;
+} */
+
+/* 20072023 */
+.bg-custom-page {
+  background-color: rgb(230, 255, 218);
+}
+.qr {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.centered-toast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* CSS code */
+.table-collapse {
+  border-collapse: collapse;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #059142;
+}
+
+tr:hover {
+  background-color: rgb(227, 236, 239);
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Backgroundgraphics enabled  */
+  tr:hover {
+    background-color: transparent !important;
+  }
+
+  .printi,
+  .scroller,
+  .nav {
+    display: none;
+  }
+}
+
+/* added 18032023 */
+.popup-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.description {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 3rem;
+}
+
+/* 25052023 */
+/* add this formenu its support mini screens  */
+@media (min-width: 300px) {
+  .lg\:w-60 {
+    width: 15rem;
+  }
+
+  .lg\:left-0 {
+    left: 0px;
+  }
+}
+
+
+/* /////////// */
+.Jfw7Vd {
+  color: rgb(32, 33, 36);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 32px 0 8px;
+}
+.mqJkEc {
+  color: rgb(95,99,104);
+  font-family: Roboto,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: pre-line;
+}
+/* added */
+.nav {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+  transition: all 0.9s ease;
+  /* adds a smooth transition to all CSS changes */
+}
+
+/* nav:hover {
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.8);
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-links {
+  animation: fadeInAnimationLinks ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.home-header-caption {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.jiggle {
+  animation: wave ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/* ANIMATIONS */
+/* 150623 */
+@keyframes ellipsis {
+  0% {
+    content: '.';
+  }
+
+  33% {
+    content: '..';
+  }
+
+  66% {
+    content: '...';
+  }
+}
+
+.animate-ellipsis::after {
+  content: '';
+  animation: ellipsis 1s infinite steps(3);
+}
+
+/* -------- */
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  }
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimationLinks {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
