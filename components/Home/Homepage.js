@@ -26,7 +26,7 @@ const Home = ({ homepage }) => {
           <HomeStudentDataCard homepage={homepage}/>
           <HomeSemResult homepage={homepage}/>
           {/* <HomeClassmateCgpa homepage={homepage}/> */}
-          
+
         </Carousel>
       </div>
       <HomeInfo />

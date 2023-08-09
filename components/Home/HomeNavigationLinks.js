@@ -173,20 +173,20 @@ const HomeNavLinks = () => {
       {/* Footer */}
       <p className="mt-1 block text-left mx-[12%] text-center text-[65%] sm:text-[100%]">
         Made with ❤ by &nbsp;
-        <Link href="/"  >
+        <Link href="https://theskypedia.com"  >
           <a target="_blank" className="font-bold text-[#9C1A8B]" onClick={() => window.location.reload()}>
-            MD MOIZ UDDIN
+           THESKYPEDIA
           </a>
         </Link>
       </p>
-      <p className="mt-1 block text-left mx-[12%] text-center mb-4 text-[67%] sm:text-[100%]">
+      {/* <p className="mt-1 block text-left mx-[12%] text-center mb-4 text-[67%] sm:text-[100%]">
         If you found this app helpful, you can support me by &nbsp;
         <a className="font-bold text-[#9C1A8B] cursor-pointer" onClick={handleLinkClick}>
           buying me a pizza here.
         </a>
-      </p>
+      </p> */}
 
-      {isModalVisible && <Qrcode onClose={handleCloseModal} />}
+      {/* {isModalVisible && <Qrcode onClose={handleCloseModal} />} */}
       <Telegram />
       <br />
       {/* Footer */}
@@ -194,7 +194,7 @@ const HomeNavLinks = () => {
         <div className="md:h-8 ">
           <div className=" md:px-0">
             <p className="text-center text-sm sm:text-[100%]">
-              Collaborators:&nbsp;
+              Thanks &nbsp;
             </p>
             <p className="text-center text-[67%] sm:text-[100%] ">
               <a href="https://github.com/thilakreddyy" target="_blank" rel="noreferrer">
