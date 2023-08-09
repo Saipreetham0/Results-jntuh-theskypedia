@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Telegram from "./Telegram";
-// import AdBanner from "../Adsense/AdBanner";
+import AdBanner from "../Adsense/AdBanner";
 
 const Notify = () => {
   const [toastShown, setToastShown] = useState(false);
@@ -15,11 +15,7 @@ const Notify = () => {
       toast(
         <div className="centered-toast">
           {/* <Telegram /> */}
-          {/* <AdBanner
-            data-ad-slot="5967398818"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          /> */}
+          <AdBanner adSlot="5967398818" />
         </div>,
         {
           toastId: "success2",
