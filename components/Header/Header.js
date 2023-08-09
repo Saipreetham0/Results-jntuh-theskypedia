@@ -12,32 +12,32 @@ const Header = () => {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta property="og:url" content="https://resultsjntuh.vercel.app/" />
+        <meta property="og:url" content="https://jntuhresults.theskypedia.com/" />
         <meta property="og:type" content="RESULTS"></meta>
-        <meta name="image" property="og:image" content="https://resultsjntuh.vercel.app/homepage.jpg"></meta>
+        <meta name="image" property="og:image" content="https://jntuhresults.theskypedia.com/homepage.jpg"></meta>
         <meta name="author" content="Mohd Moiz Uddin"></meta>
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://resultsjntuh.vercel.app/" />
+        <meta property="og:url" content="https://jntuhresults.theskypedia.com/" />
         <meta property="og:title" content="JNTUH RESULTS" />
         <meta property="og:description" content="You can find the Results Of Your Entire UG & PG Courses (JNTUH)." />
-        <meta property="og:image" content="https://resultsjntuh.vercel.app/homepage.jpg" />
+        <meta property="og:image" content="https://jntuhresults.theskypedia.com/homepage.jpg" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://resultsjntuh.vercel.app/" />
+        <meta property="twitter:url" content="https://jntuhresults.theskypedia.com/" />
         <meta property="twitter:title" content="JNTUH RESULTS" />
         <meta property="twitter:description" content="You can find the Results Of Your Entire UG & PG Courses (JNTUH)." />
-        <meta property="twitter:image" content="https://resultsjntuh.vercel.app/homepage.jpg" />
-        
+        <meta property="twitter:image" content="https://jntuhresults.theskypedia.com/homepage.jpg" />
+
         <meta name="google-site-verification" content="FUy87m9L-VxJNFarXrOAq8E6TLmFSOFkkeFZsIZEMOk" />
 
         <script
           dangerouslySetInnerHTML={{
             __html: `
               if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                    // console.log("dark Mode");         
+                    // console.log("dark Mode");
                 }
                 else
                 {
@@ -54,7 +54,7 @@ const Header = () => {
         </script>
       </Head>
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-ST6BWFLTTP"
+        src="https://www.googletagmanager.com/gtag/js?id=G-N1FJ0X03GL"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -62,9 +62,11 @@ const Header = () => {
         window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-ST6BWFLTTP');
+          gtag('config', 'G-N1FJ0X03GL');
         `}
       </Script>
+
+
     </>
   )
 }
