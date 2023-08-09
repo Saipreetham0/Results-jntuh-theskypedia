@@ -13,7 +13,7 @@ const HomeBanner = ({ closeBanner }) => {
                     <div>This is a newer version of &nbsp;
                     <br/>
                         <a>
-                            <Link href="https://jntuhresults.vercel.app/">
+                            <Link href="https://jntuhresults.theskypedia.com/">
                                 <strong>
                                     JNTUH Results
                                 </strong>
@@ -21,13 +21,13 @@ const HomeBanner = ({ closeBanner }) => {
                         </a>
                     </div>
                     <center>
-                    <Image src='/logo.png' href="https://jntuhresultsweb.vercel.app/" className="w-[60px]  sm:w-[120px]" alt="" width={80} height={60} /></center>
+                    <Image src='/logo.png' href="https://jntuhresults.theskypedia.com/" className="w-[60px]  sm:w-[120px]" alt="" width={80} height={60} /></center>
                     <small>Get your Results with your CGPA in a second</small>
                     <br />
                     <br />
                     <div>Check out the another Version of JNTUH RESULTS
                         <a>
-                            <Link href="https://resultsjntuhv1.vercel.app/">
+                            <Link href="https://jntuhresults.theskypedia.com/">
                                 <strong className="hover:cursor-pointer"> here</strong>
                             </Link>
                         </a>
