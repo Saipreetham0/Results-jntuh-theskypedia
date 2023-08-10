@@ -111,7 +111,7 @@ const HomeNavLinks = () => {
         Welcome to{" "}
         <a
           className="text-blue-400 hover:text-blue-600"
-          href=""
+          href="/"
           target="_blank"
           rel="noreferrer"
           onClick={() => window.location.reload()}
