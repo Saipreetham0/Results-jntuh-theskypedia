@@ -5,40 +5,40 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-        <loc>https://jntuhresults.theskypedia.com/Backlogs.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/backlogs.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/CGPACalculator.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/cgpa-calculator.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/Classmate.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/classmate.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/Classresults.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/class-results.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/ComparisonMode.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/comparison-mode.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/ConsolidatedResult.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/consolidated-result.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/CreditsCalculator.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/credits-calculator.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/Faqs.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/faqs.js</loc>
     </url>
     <url>
         <loc>https://jntuhresults.theskypedia.com/help.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/Notifications.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/notifications.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/SemResults.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/sem-results.js</loc>
     </url>
     <url>
-        <loc>https://jntuhresults.theskypedia.com/Subjectsratio.js</loc>
+        <loc>https://jntuhresults.theskypedia.com/subjects-ratio.js</loc>
     </url>
     <url>
         <loc>https://jntuhresults.theskypedia.com/download</loc>

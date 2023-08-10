@@ -14,8 +14,8 @@
 //       <IoConstructOutline size='48px' />
 //       <h1 className='font-bold'> We are working on this feature!</h1>
 //       <p>
-//         We always strive to bring you the best. If you have any suggestions, <br></br> 
-//         please let us know 
+//         We always strive to bring you the best. If you have any suggestions, <br></br>
+//         please let us know
 //       </p>
 //     </animated.div>
 //   )
@@ -113,7 +113,7 @@ function Home() {
                         </p>
                     </div>
                 </Link> */}
-                <Link href="https://telegram.me/JntuhResultschatBot">
+                <Link href="https://theskypedia.com/telegram">
                     <div className="border border-gray-100 hover:drop-shadow-sm group text-black shadow-2xl max-w-xs p-6 mt-6 text-left md:w-96 rounded-xl hover:border-gray-500 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-105 hover:bg-blue-200 duration-300">
                         <h3 className="text-sky-400 text-lg sm:text-xl font-bold p-2 text-center group-hover:text-black text-lg sm:text-2xl font-bold">
                             <BiBug className="inline-block mr-2" />
@@ -124,7 +124,7 @@ function Home() {
                         </p>
                     </div>
                 </Link>
-                <Link href="https://telegram.me/JntuhResultschatBot">
+                <Link href="https://theskypedia.com/telegram">
                     <div className="border border-gray-100 hover:drop-shadow-sm group text-black shadow-2xl max-w-xs p-6 mt-6 text-left md:w-96 rounded-xl hover:border-gray-500 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-105 hover:bg-blue-200 duration-300">
                         <h3 className="text-sky-400 text-lg sm:text-xl font-bold p-2 text-center group-hover:text-black text-lg sm:text-2xl font-bold">
                             <BiMessageSquare className="inline-block mr-2" />
@@ -149,7 +149,7 @@ function Home() {
                 <button
                     className="border border-gray-100 hover:drop-shadow-sm group text-black shadow-2xl max-w-xs p-6 mt-6 text-left md:w-96 rounded-xl hover:border-gray-500 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-105 hover:bg-blue-200 duration-300"
                     onClick={() => {
-                        const url = "https://resultsjntuh.vercel.app/";
+                        const url = "https://jntuhresults.theskypedia.com/";
                         const title = "JNTUH Results";
                         const text = "Stop your endless search for exam results! Find all your JNTUH exam results conveniently at here. Our user-friendly website provides reliable and accurate results for B.Tech, B.Pharmacy, M.Tech, M.Pharmacy, and MBA. Best of all, it's free! Don't waste time on countless websites – trust us for quick and easy access to your results. Spread the word and let your fellow students know they can find their results here too.";
                         navigator.share({ url, title, text });
@@ -173,7 +173,7 @@ function Home() {
                         Download App <FiDownload className="w-5 h-5 ml-2" />
                     </div>
                 </Link>
-                <Link href="https://telegram.me/resultsjntuh">
+                <Link href="https://theskypedia.com/telegram">
                     <div className="my-2 bottom-5 right-5 bg-blue-500 hover:bg-white text-white hover:text-blue-500 rounded-xl px-3 py-2 shadow-lg  flex items-center font-bold text-sm">
                         <BsTelegram className="w-5 h-5" />&nbsp; Join Us On Telegram
                     </div>
@@ -182,14 +182,14 @@ function Home() {
             <div className="mt-2">
                 <HomeFooter />
             </div>
-            <div className="mt-1 block text-center text-green-600 mb-4 text-[55%] md:text-[80%]">
+            {/* <div className="mt-1 block text-center text-green-600 mb-4 text-[55%] md:text-[80%]">
                 <Link href="https://resultsjntuhweb.statuspage.io" >
                     <a >
                         <StatusPage />
                     </a>
                 </Link>
 
-            </div>
+            </div> */}
         </div>
 
     );
