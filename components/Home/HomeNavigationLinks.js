@@ -20,14 +20,14 @@ const HomeNavLinks = () => {
 
   const links = [
     {
-      route: "/ConsolidatedResult",
+      route: "/consolidated-result",
       desctiption: [
         "Consolidated Results",
         "Get All Your Semester Results Here",
       ],
     },
     {
-      route: "/SemResults",
+      route: "/sem-results",
       desctiption: [
         "Get Your Sem Result",
         "Get Results Of Particular Semester",
@@ -48,28 +48,28 @@ const HomeNavLinks = () => {
     //   ],
     // },
     {
-      route: "/CGPACalculator",
+      route: "/cgpa-calculator",
       desctiption: [
         "Get Your CGPA",
         "Get Your Gpa & Results Performance Detailed Here ",
       ],
     },
     {
-      route: "/CreditsCalculator",
+      route: "/credits-calculator",
       desctiption: [
         "Credits Check",
         "Check Your Credits Eligible Critiera Here",
       ],
     },
     {
-      route: "/ComparisonMode",
+      route: "/comparison-mode",
       desctiption: [
         "Results Comparison",
         "Get Overall Results Comparison with Classmate",
       ],
     },
     {
-      route: "/Backlogs",
+      route: "/backlogs",
       desctiption: ["Check Backlogs", "Get Your Overall Backlogs List Here "],
     },
     // {
@@ -79,27 +79,21 @@ const HomeNavLinks = () => {
     //     'Class Peformance Subjects Stats For Particular Semester ',
     //   ],
     // },
+    // {
+    //   route: "/Classmatecgpa",
+    //   desctiption: [
+    //     "Classmate CPGA",
+    //     "Check the Overall CGPA of Your Classmates",
+    //   ],
+    // },
     {
-      route: "/Classmatecgpa",
-      desctiption: [
-        "Classmate CPGA",
-        "Check the Overall CGPA of Your Classmates",
-      ],
-    },
-    {
-      route: "/Notifications",
+      route: "/notifications",
       desctiption: [
         "Notifications",
         "Get All The Latest Notifications From JNTUH.",
       ],
     },
-    // {
-    //   route: '/OldVersion',
-    //   desctiption: [
-    //     'Old Version',
-    //     'Get All The Latest Results From JNTUH.',
-    //   ],
-    // },
+
     {
       route: "/help",
       desctiption: [

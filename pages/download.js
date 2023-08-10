@@ -44,7 +44,7 @@ const Download = () => {
         fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif',
       }}>
         <Head>
-          <title>Download Resultsjntuh </title>
+          <title>Download Results jntuh </title>
         </Head>
         <div>
           <br />
@@ -52,7 +52,7 @@ const Download = () => {
           <br />
           <div className='m-6'>
             <h1 style={{ fontSize: '40px' }}>Download <br /> ResultsJntuh App</h1>
-            <p>Stay connected on Resultsjntuh App across your devices, so you can pick up any results when you required.</p>
+            <p>Stay connected on Results jntuh App across your devices, so you can pick up any results when you required.</p>
           </div>
           <div className="flex flex-wrap items-center justify-around mt-6 ">
             <div className="border border-black-400 bg-[#111B21] hover:drop-shadow-sm group text-white shadow-2xl max-w-xs p-6 mt-6 text-center md:w-96 rounded-xl hover:border-gray-500 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-105 hover:bg-green-600 duration-300">
@@ -109,8 +109,8 @@ const Download = () => {
           <br />
           <div className='flex justify-center items-center'>
             <p className='justify-center items-center mt-4 p-2 m-4'>
-              Visit <a href="https://resultsjntuh.vercel.app/download" target="_blank" rel="noopener noreferrer">&nbsp;
-                <span className='underline text-blue-500'>resultsjntuh.vercel.app/download</span>
+              Visit <a href="https://jntuhresults.theskypedia.com/download" target="_blank" rel="noopener noreferrer">&nbsp;
+                <span className='underline text-blue-500'>jntuhresults.theskypedia.com/download</span>
               </a> &nbsp; on your mobile phone to install
             </p>
           </div>
@@ -124,7 +124,7 @@ const Download = () => {
         <div className="-mt-2" style={{ fontSize: '40px' }}>
           <h1>Already<br />downloaded?</h1>
         </div>
-        <p className='mt-2' style={{ fontSize: '16px' }}>Learn more about what you can do on Resultsjntuh. <Link href="/Faqs"><span className='text-blue-400 cursor-pointer'>Faqs</span></Link></p>
+        <p className='mt-2' style={{ fontSize: '16px' }}>Learn more about what you can do on Resultsjntuh. <Link href="/faqs"><span className='text-blue-400 cursor-pointer'>Faqs</span></Link></p>
       </div>
     </>
   );

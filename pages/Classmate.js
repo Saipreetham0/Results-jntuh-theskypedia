@@ -1,3 +1,4 @@
+
 import ClassResultPage from "../components/Classmate/ClassResultPage";
 import Head from 'next/head';
 const classresult = () => {

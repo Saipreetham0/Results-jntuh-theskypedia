@@ -40,7 +40,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/ConsolidatedResult'>
+                            <Link href='/consolidated-result'>
                                 <div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <FaUserGraduate className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -48,7 +48,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/SemResults'>
+                            <Link href='/sem-results'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <BsCardText className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -56,7 +56,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/Classresults'>
+                            <Link href='/class-results'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <BsListUl className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -64,7 +64,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/Classmate'>
+                            <Link href='/classmate'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <BsListNested className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -72,7 +72,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/CGPACalculator'>
+                            <Link href='/cgpa-calculator'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <BsClipboardData className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -80,7 +80,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/CreditsCalculator'>
+                            <Link href='/credits-calculator'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <MdCreditScore className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -88,7 +88,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/ComparisonMode'>
+                            <Link href='/comparison-mode'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <LuStretchVertical className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -96,7 +96,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/Backlogs'>
+                            <Link href='/backlogs'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <BsCardChecklist className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -104,7 +104,7 @@ function SideNavbar() {
                                     </h3>
                                 </div>
                             </Link>
-                            <Link href='/Subjectsratio'>
+                            <Link href='/subjects-ratio'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <MdSubject className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -113,7 +113,7 @@ function SideNavbar() {
                                 </div>
                             </Link>
 
-                            <Link href='/Notifications'>
+                            <Link href='/notifications'>
                                 <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                                     <CgNotifications className="text-2xl text-gray-600 group-hover:text-white " />
                                     <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
@@ -135,7 +135,7 @@ function SideNavbar() {
                             </div>
                         </div> */}
                         <div className=" my-2" onClick={() => {
-                            const url = "https://resultsjntuh.vercel.app/";
+                            const url = "https://jntuhresults.theskypedia.com";
                             const title = "JNTUH Results";
                             const text = "Stop your endless search for exam results! Find all your JNTUH exam results conveniently at here. Our user-friendly website provides reliable and accurate results for B.Tech, B.Pharmacy, M.Tech, M.Pharmacy, and MBA. Best of all, it's free! Don't waste time on countless websites – trust us for quick and easy access to your results. Spread the word and let your fellow students know they can find their results here too.";
                             navigator.share({ url, title, text });

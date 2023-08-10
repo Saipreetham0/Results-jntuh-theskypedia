@@ -1,9 +1,9 @@
-import React, { useEffect, useState, useRef } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { Icon } from '@iconify/react';
-import menu2Fill from '@iconify/icons-eva/menu-2-fill';
-import Nav1 from './Nav1';
+import React, { useEffect, useState, useRef } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { Icon } from "@iconify/react";
+import menu2Fill from "@iconify/icons-eva/menu-2-fill";
+import Nav1 from "./Nav1";
 
 const NavBarComponent = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -27,8 +27,8 @@ const NavBarComponent = () => {
 
     const handleMenu = (event) => {
       if (
-        event.target.closest('.menu-icon') ||
-        event.target.closest('.menu-container')
+        event.target.closest(".menu-icon") ||
+        event.target.closest(".menu-container")
       ) {
         setShowPopup((prevState) => !prevState);
       } else {
@@ -36,14 +36,14 @@ const NavBarComponent = () => {
       }
     };
 
-    document.addEventListener('touchstart', handleTouchStart);
-    document.addEventListener('touchend', handleTouchEnd);
-    document.addEventListener('click', handleMenu);
+    document.addEventListener("touchstart", handleTouchStart);
+    document.addEventListener("touchend", handleTouchEnd);
+    document.addEventListener("click", handleMenu);
 
     return () => {
-      document.removeEventListener('touchstart', handleTouchStart);
-      document.removeEventListener('touchend', handleTouchEnd);
-      document.removeEventListener('click', handleMenu);
+      document.removeEventListener("touchstart", handleTouchStart);
+      document.removeEventListener("touchend", handleTouchEnd);
+      document.removeEventListener("click", handleMenu);
     };
   }, [showPopup, startX]);
 
@@ -54,22 +54,15 @@ const NavBarComponent = () => {
         <h1 className="text-md font-bold md:text-lg lg:text-2xl flex-1 text-[#020E24] mt-1">
           <Link href="/">
             <a>
-              <Image
-                src="/logo.png"
-                alt="Logo"
-                width={70}
-                height={50}
-              />
+              <Image src="/logo.png" alt="Logo" width={70} height={50} />
             </a>
           </Link>
         </h1>
-        <div
-          className="flex items-center space-x-4 md:space-x-8"
-        >
+        <div className="flex items-center space-x-4 md:space-x-8">
           <Icon
             icon={menu2Fill}
             className="w-7 h-7 menu-icon"
-            style={{ cursor: 'pointer' }}
+            style={{ cursor: "pointer" }}
           />
         </div>
       </nav>
@@ -78,9 +71,6 @@ const NavBarComponent = () => {
 };
 
 export default NavBarComponent;
-
-
-
 
 // import React, { useEffect, useState } from 'react';
 // import Link from 'next/link';

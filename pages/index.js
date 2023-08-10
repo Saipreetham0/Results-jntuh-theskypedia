@@ -6,7 +6,7 @@ export default function Home() {
 
     <main className='text-center flex flex-col items-center'>
       <HomeNavLinks />
-      <Notify/>
+      {/* <Notify/> */}
     </main>
   )
 }

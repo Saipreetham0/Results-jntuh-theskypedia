@@ -4,13 +4,17 @@ const Header = () => {
   return (
     <>
       <Head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="The Skypedia" />
         {/* <!-- Primary Meta Tags --> */}
         <title>JNTUH RESULTS</title>
         <meta name="title" content="JNTUH RESULTS" />
         <meta
           name="description"
           content="You can find the Results Of Your Entire UG & PG Courses (JNTUH)."
-
         />
         <meta name="keywords" content="jntuh Results, results jntuh" />
         <link
@@ -80,6 +84,22 @@ const Header = () => {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         ></script>
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollegeOrUniversity",
+            name: "The Sypedia",
+            url: "https://jntuhresults.theskypedia.com/",
+            logo: "https://theskypedia.com/wp-content/uploads/2022/06/cropped-theskypedia.com-logo.png", // Add logo URL if available
+            sameAs: [
+              "https://www.instagram.com/theskypedia/",
+              "https://www.youtube.com/@theskypedia",
+              "https://www.linkedin.com/company/theskypedia/",
+              "https://theskypedia.com/",
+            ],
+          })}
+        </script>
 
         <script
           dangerouslySetInnerHTML={{
