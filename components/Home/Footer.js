@@ -16,11 +16,11 @@ const Footer = ()=>
             Made with ❤ by &nbsp;
             <Link href=""  >
                 <a target="_blank" className="font-bold text-[#9C1A8B]"  onClick={() => window.location.reload()}>
-                    theSkypedia
+                    The Skypedia
                 </a>
             </Link>
         </p>
-        
+
 
 
 

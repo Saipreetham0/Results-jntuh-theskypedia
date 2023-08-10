@@ -128,6 +128,11 @@ const HomeNavLinks = () => {
           JNTUH Results
         </a>
       </h1>
+      <meta
+          name="description"
+          content="Welcome to JNTUH Results Portal. Get all your results in one place. Just your hallticket, to rule them all. The Skypedia"
+          key="desc"
+        />
       <p className='description' >
         Examination Results Portal {' '}
         <br />
