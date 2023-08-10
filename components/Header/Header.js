@@ -10,7 +10,9 @@ const Header = () => {
         <meta
           name="description"
           content="You can find the Results Of Your Entire UG & PG Courses (JNTUH)."
+
         />
+        <meta name="keywords" content="jntuh Results, results jntuh" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -78,7 +80,7 @@ const Header = () => {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         ></script>
-        
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
