@@ -18,7 +18,6 @@ const AdBanner = ({ adSlot }) => {
         data-ad-client="ca-pub-4870864326886980"
         data-ad-slot={adSlot}
         data-ad-format="auto"
-        data-full-width-responsive="true"
       ></ins>
     </div>
   );
