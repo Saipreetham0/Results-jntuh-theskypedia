@@ -70,6 +70,7 @@ const HomeNavLinks = () => {
     },
     {
       route: "/backlogs",
+      
       desctiption: ["Check Backlogs", "Get Your Overall Backlogs List Here "],
     },
     // {
