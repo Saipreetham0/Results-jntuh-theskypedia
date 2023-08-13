@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import AdBanner from "../Adsense/AdBanner";
+// import AdBanner from "../Adsense/AdBanner";
+import LoadingAd from "../Adsense/loadingAd";
 const Footer = () => {
   return (
     <>
     <div>
-       <AdBanner />
+       {/* <AdBanner /> */}
+       <LoadingAd/>
 
       <div className="flex justify-center text-center m-2 text-xs	 text-black-1600  font-bold my-6">
 
