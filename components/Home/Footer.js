@@ -1,7 +1,7 @@
 import Link from "next/link";
 import HomeBanner from "./HomeBanner";
 import React, { useState } from "react";
-import AdBanner from "../Adsense/AdBanner";
+
 
 const Footer = () => {
   const closeBanner = () => {
@@ -12,8 +12,8 @@ const Footer = () => {
   );
   return (
     <>
-      <div>
-        <AdBanner />
+
+
         <p className="mt-1 block text-left mx-[12%] text-center mb-4 text-[65%] sm:text-[100%]">
           Made with ❤ by &nbsp;
           <Link href="">
@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
           </Link>
         </p>
-      </div>
+
     </>
   );
 };
