@@ -11,6 +11,7 @@ import Alert from "../components/Home/Banner";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import redisurl from "../components/api/api2";
+import AdBanner from "../components/Adsense/AdBanner";
 
 const HomeStudentDataCard = ({ homepage }) => {
   const router = useRouter();
@@ -170,6 +171,8 @@ const HomePage = () => {
   return (
     <div>
       {content}
+
+  
     </div>
   );
 };

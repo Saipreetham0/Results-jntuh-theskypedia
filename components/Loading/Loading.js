@@ -1,5 +1,4 @@
 import { HashLoader } from "react-spinners";
-import LoadingAd from "../../components/Adsense/loadingAd";
 
 const Loading = () => {
   return (
@@ -11,8 +10,6 @@ const Loading = () => {
       <div className="flex items-center justify-center">
         <HashLoader color={"#558888"} size={30} css={{ margin: "auto" }} />
       </div>
-
-      <LoadingAd adClient="ca-pub-4870864326886980" adSlot="8973292958" />
     </div>
   );
 };
