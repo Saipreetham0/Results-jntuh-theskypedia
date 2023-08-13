@@ -88,7 +88,7 @@ const HomeNavLinks = () => {
     //   ],
     // },
     {
-      route: "/notifications",
+      route: "/jntuh-notifications",
       desctiption: [
         "Notifications",
         "Get All The Latest Notifications From JNTUH.",
