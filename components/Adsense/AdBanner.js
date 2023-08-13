@@ -13,15 +13,15 @@ const AdBanner = ({ adSlot }) => {
   return (
     <div className="ad-container">
       <ins
-        className="adsbygoogle mobile-ad block md:hidden"
+        className="adsbygoogle"
         // style={{ display: "block" }}
-        style={{ display: 'inline-block', width: '728px', height: '90px' }}
-
+        // style={{ display: 'inline-block', width: '728px', height: '90px' }}
+        style={{ display: 'inline-block', width: '320px', height: '50px' }}
         data-ad-client="ca-pub-4870864326886980"
         data-ad-slot={adSlot}
         data-ad-format="auto"
       ></ins>
-      
+
     </div>
   );
 };

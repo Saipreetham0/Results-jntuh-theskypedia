@@ -138,7 +138,7 @@ const HomeNavLinks = () => {
         </i>
       </p>
 
-      {/* <AdBanner /> */}
+      <AdBanner />
       <div className="home-links flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
         {links.map((link, idx) =>
           // Check if the link route is '/Classmatecgpa' and the current time is between 6 PM and 12 AM (midnight)
