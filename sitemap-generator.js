@@ -14,3 +14,5 @@ const writeStream = fs.createWriteStream(
     path.join(__dirname, 'public', 'sitemap.xml')
   );
   stream.pipe(writeStream);
+
+  

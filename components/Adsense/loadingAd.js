@@ -1,7 +1,7 @@
 // components/LoadingAd.js
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
-const LoadingAd = ({  adSlot }) => {
+const LoadingAd = ({ adSlot }) => {
   useEffect(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   }, []);
@@ -10,8 +10,7 @@ const LoadingAd = ({  adSlot }) => {
     <div className="ads-container">
       <ins
         className="adsbygoogle"
-              style={{ display: 'inline-block', width: '728px', height: '90px' }}
-
+        style={{ display: "inline-block", width: "728px", height: "90px" }}
         data-ad-client="ca-pub-4870864326886980"
         data-ad-slot={adSlot}
         data-ad-format="auto"
