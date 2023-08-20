@@ -1,16 +1,18 @@
-import '../styles/globals.css'
-import Layout from '../components/Layout/Layout';
-import { Analytics } from '@vercel/analytics/react';
+import "../styles/globals.css";
+import Layout from "../components/Layout/Layout";
+import { ThemeProvider } from "next-themes";
+import { Analytics } from "@vercel/analytics/react";
 function MyApp({ Component, pageProps }) {
-
-
-    return( <>
-      <Layout >
-        <Component {...pageProps}/>
-        <Analytics/>
-        
-      </Layout>
-      </>)
+  return (
+    <>
+      <ThemeProvider attribute="class">
+        <Layout>
+          <Component {...pageProps} />
+          <Analytics />
+        </Layout>
+      </ThemeProvider>
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

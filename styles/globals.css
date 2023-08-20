@@ -270,3 +270,10 @@ tr:hover {
     opacity: 1;
   }
 }
+
+
+@layer base {
+  body {
+    @apply dark:bg-gray-900 bg-white;
+  }
+}

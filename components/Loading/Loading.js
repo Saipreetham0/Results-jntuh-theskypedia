@@ -1,4 +1,5 @@
 import { HashLoader } from "react-spinners";
+// import LoadingSkeleton from "./LoadingSkeleton";
 
 const Loading = () => {
   return (
@@ -11,7 +12,12 @@ const Loading = () => {
         <HashLoader color={"#558888"} size={30} css={{ margin: "auto" }} />
       </div>
     </div>
+
+
   );
 };
 
 export default Loading;
+
+
+
