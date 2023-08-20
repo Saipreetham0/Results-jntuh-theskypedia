@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 
 const LoadingAd = ({ adSlot }) => {
   useEffect(() => {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
+    // (window.adsbygoogle = window.adsbygoogle || []).push({});
   }, []);
 
   return (
