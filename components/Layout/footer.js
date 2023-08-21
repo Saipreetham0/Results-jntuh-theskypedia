@@ -7,7 +7,7 @@ const Footer = () => {
     <>
     <div>
        {/* <AdBanner /> */}
-       <LoadingAd adSlot=""/>
+       <LoadingAd adSlot="8973292958"/>
 
       <div className="flex justify-center text-center m-2 text-xs	 text-black-1600  font-bold my-6">
 

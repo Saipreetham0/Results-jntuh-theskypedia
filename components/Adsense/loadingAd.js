@@ -2,8 +2,17 @@
 import React, { useEffect } from "react";
 
 const LoadingAd = ({ adSlot }) => {
+  // useEffect(() => {
+  //   // (window.adsbygoogle = window.adsbygoogle || []).push({});
+  // }, []);
+
   useEffect(() => {
-    // (window.adsbygoogle = window.adsbygoogle || []).push({});
+    try {
+      window.adsbygoogle = window.adsbygoogle || [];
+      window.adsbygoogle.push({});
+    } catch (error) {
+      console.error("Error loading Google AdSense ads:", error);
+    }
   }, []);
 
   return (

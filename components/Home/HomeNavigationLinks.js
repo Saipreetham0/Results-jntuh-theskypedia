@@ -195,7 +195,7 @@ const HomeNavLinks = () => {
               onMouseLeave={() => setHoveredLink(null)}
             >
               <div class="flex flex-row items-center">
-                {link.icon}
+                {/* {link.icon} */}
 
                 <h3 className="group-hover:text-black text-lg sm:text-2xl font-bold">
                   <div className="flex flex-row items-center justify-start">

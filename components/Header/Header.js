@@ -6,7 +6,7 @@ const Header = () => {
       __html: `{
         "@context": "https://schema.org",
             "@type": "CollegeOrUniversity",
-            name: "The Sypedia",
+            name: "The Skypedia",
             url: "https://jntuhresults.theskypedia.com/",
             logo: "https://theskypedia.com/wp-content/uploads/2022/06/cropped-theskypedia.com-logo.png", // Add logo URL if available
             sameAs: [
