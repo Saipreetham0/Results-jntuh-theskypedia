@@ -1,6 +1,25 @@
 import Head from "next/head";
 import Script from "next/script";
 const Header = () => {
+  function addWesiteJsonLd() {
+    return {
+      __html: `{
+        "@context": "https://schema.org",
+            "@type": "CollegeOrUniversity",
+            name: "The Sypedia",
+            url: "https://jntuhresults.theskypedia.com/",
+            logo: "https://theskypedia.com/wp-content/uploads/2022/06/cropped-theskypedia.com-logo.png", // Add logo URL if available
+            sameAs: [
+              "https://www.instagram.com/theskypedia/",
+              "https://www.youtube.com/@theskypedia",
+              "https://www.linkedin.com/company/theskypedia/",
+              "https://theskypedia.com/",
+            ],
+
+      }`,
+    };
+  }
+
   return (
     <>
       <Head>
@@ -17,6 +36,12 @@ const Header = () => {
           content="You can find the Results Of Your Entire UG & PG Courses (JNTUH)."
         />
         <meta name="keywords" content="jntuh Results, results jntuh" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addWesiteJsonLd()}
+          key="product-jsonld"
+        />
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -85,8 +110,15 @@ const Header = () => {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         ></script>
 
-        <script type="application/ld+json">
-          {JSON.stringify({
+        {/* <script type="application/ld+json"
+
+        dangerouslySetInnerHTML={{
+            __html: `
+          {
+
+            {
+
+
             "@context": "https://schema.org",
             "@type": "CollegeOrUniversity",
             name: "The Sypedia",
@@ -98,8 +130,9 @@ const Header = () => {
               "https://www.linkedin.com/company/theskypedia/",
               "https://theskypedia.com/",
             ],
-          })}
-        </script>
+
+          `,
+        /> */}
 
         <script
           dangerouslySetInnerHTML={{
