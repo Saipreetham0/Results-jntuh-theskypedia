@@ -16,7 +16,7 @@ const LoadingAd = ({ adSlot }) => {
   }, []);
 
   return (
-    <div className="ads-container">
+    <div className="ads-container ">
       <ins
         className="adsbygoogle"
         style={{ display: "inline-block", width: "728px", height: "90px" }}
