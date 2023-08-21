@@ -110,30 +110,6 @@ const Header = () => {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         ></script>
 
-        {/* <script type="application/ld+json"
-
-        dangerouslySetInnerHTML={{
-            __html: `
-          {
-
-            {
-
-
-            "@context": "https://schema.org",
-            "@type": "CollegeOrUniversity",
-            name: "The Sypedia",
-            url: "https://jntuhresults.theskypedia.com/",
-            logo: "https://theskypedia.com/wp-content/uploads/2022/06/cropped-theskypedia.com-logo.png", // Add logo URL if available
-            sameAs: [
-              "https://www.instagram.com/theskypedia/",
-              "https://www.youtube.com/@theskypedia",
-              "https://www.linkedin.com/company/theskypedia/",
-              "https://theskypedia.com/",
-            ],
-
-          `,
-        /> */}
-
         <script
           dangerouslySetInnerHTML={{
             __html: `

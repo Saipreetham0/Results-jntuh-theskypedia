@@ -19,7 +19,7 @@ const LoadingAd = ({ adSlot }) => {
     <div className="ads-container ">
       <ins
         className="adsbygoogle"
-        style={{ display: "inline-block", width: "728px", height: "90px" }}
+        style={{ display: "block" }}
         data-ad-client="ca-pub-4870864326886980"
         data-ad-slot={adSlot}
         data-ad-format="auto"

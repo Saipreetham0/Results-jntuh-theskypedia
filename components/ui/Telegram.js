@@ -6,7 +6,7 @@ const Telegram = () => {
 
     return (
         <>
-            <div>
+            <div className=''>
                 <Link href="https://theskypedia.com/telegram">
                     <button className="my-2 bottom-5 right-5 bg-blue-500 hover:bg-white text-white hover:text-blue-500 rounded-xl px-3 py-2 shadow-lg z-10 flex items-center font-bold text-sm">
                         <BsTelegram className="w-5 h-5" />&nbsp; Join Us On Telegram

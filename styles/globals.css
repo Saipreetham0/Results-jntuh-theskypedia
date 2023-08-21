@@ -52,8 +52,6 @@ th {
   align-items: center;
 }
 
-
-
 /* CSS code */
 .table-collapse {
   border-collapse: collapse;
@@ -97,7 +95,6 @@ tr:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -131,7 +128,6 @@ tr:hover {
   }
 }
 
-
 /* /////////// */
 .Jfw7Vd {
   color: rgb(32, 33, 36);
@@ -141,8 +137,8 @@ tr:hover {
   padding: 32px 0 8px;
 }
 .mqJkEc {
-  color: rgb(95,99,104);
-  font-family: Roboto,Arial,sans-serif;
+  color: rgb(95, 99, 104);
+  font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   white-space: pre-line;
@@ -194,20 +190,20 @@ tr:hover {
 /* 150623 */
 @keyframes ellipsis {
   0% {
-    content: '.';
+    content: ".";
   }
 
   33% {
-    content: '..';
+    content: "..";
   }
 
   66% {
-    content: '...';
+    content: "...";
   }
 }
 
 .animate-ellipsis::after {
-  content: '';
+  content: "";
   animation: ellipsis 1s infinite steps(3);
 }
 
@@ -271,9 +267,8 @@ tr:hover {
   }
 }
 
-
 @layer base {
   body {
-    @apply dark:bg-gray-900 bg-white;
+    @apply dark:bg-gray-800 bg-white;
   }
 }
