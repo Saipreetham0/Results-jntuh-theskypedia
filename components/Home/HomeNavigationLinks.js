@@ -134,7 +134,8 @@ const HomeNavLinks = () => {
         <h1 className="title font-bold dark:text-white">
           Welcome to The Skypedia{" "}
           <a
-            className="text-blue-400 hover:text-blue-600 "
+            // className="text-blue-400 hover:text-blue-600    "
+            className="from-sky-600  via-cyan-500 to-blue-500 font-bold bg-gradient-to-r bg-clip-text text-transparent"
             href="/"
             target="_blank"
             rel="noreferrer"
@@ -172,7 +173,7 @@ const HomeNavLinks = () => {
             </code>
           </div>
         </div>
-        <p className="home-header-caption text-black text-base sm:text-xl mt-1 block text-left mx-[12%] text-center mb-4 text-[65%] sm:text-[100%] dark:text-white">
+        <p className="home-header-caption text-black text-base sm:text-xl mt-1 block mx-[12%] text-center mb-4 text-[65%] sm:text-[100%] dark:text-white">
           Get all your results in one place.{" "}
           <i>
             One place for all your results. All you need is your{" "}

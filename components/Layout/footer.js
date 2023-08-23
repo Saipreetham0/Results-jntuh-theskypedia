@@ -77,10 +77,10 @@ const Footer = () => {
     // </footer>
 
     <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-      {/* <div class=" flex  justify-center ">
+      <div class=" flex  justify-center ">
         <LoadingAd adSlot="8973292958" />
-      </div> */}
-      <LoadingAd adSlot="8973292958" />
+      </div>
+
       <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{" "}
@@ -95,16 +95,7 @@ const Footer = () => {
               About
             </a>
           </li>
-          <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">
-              Licensing
-            </a>
-          </li>
+
           <li>
             <a href="#" class="hover:underline">
               Contact

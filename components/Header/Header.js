@@ -20,6 +20,26 @@ const Header = () => {
     };
   }
 
+
+  function addWebsiteJsonLd() {
+    return {
+      __html: `{
+        "@context": "https://schema.org",
+        "@type": "CollegeOrUniversity",
+        "name": "The Skypedia",
+        "url": "https://jntuhresults.theskypedia.com/",
+        "logo": "https://theskypedia.com/wp-content/uploads/2022/06/cropped-theskypedia.com-logo.png", // Add logo URL if available
+        "sameAs": [
+          "https://www.instagram.com/theskypedia/",
+          "https://www.youtube.com/@theskypedia",
+          "https://www.linkedin.com/company/theskypedia/",
+          "https://theskypedia.com/"
+        ]
+      }`,
+    };
+  }
+
+
   return (
     <>
       <Head>
