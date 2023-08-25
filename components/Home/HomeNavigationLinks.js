@@ -209,10 +209,10 @@ const HomeNavLinks = () => {
           )}
         </div>
         <br />
-        <hr className="w-full border-gray" />
+        <hr className="w-full border-gray dark:border-gray-700" />
         <br />
         {/* Footer */}
-        <p className="mt-1 block text-left mx-[12%] text-center text-[65%] sm:text-[100%]">
+        <p className="mt-1 block  mx-[12%] text-center text-[65%] sm:text-[100%]">
           Made with ❤ by &nbsp;
           <Link href="https://theskypedia.com">
             <a
@@ -220,7 +220,7 @@ const HomeNavLinks = () => {
               className="font-bold text-[#9C1A8B]"
               onClick={() => window.location.reload()}
             >
-              THESKYPEDIA
+              THE SKYPEDIA
             </a>
           </Link>
         </p>
@@ -231,7 +231,7 @@ const HomeNavLinks = () => {
 
         <br />
         {/* Footer */}
-        <footer className="bottom-0 opacity-50">
+        {/* <footer className="bottom-0 opacity-50">
           <div className="md:h-8 ">
             <div className=" md:px-0">
               <p className="text-center text-sm sm:text-[100%]">
@@ -263,7 +263,7 @@ const HomeNavLinks = () => {
               </p>
             </div>
           </div>
-        </footer>
+        </footer> */}
         <br />
       </div>
     </>
