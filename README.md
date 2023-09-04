@@ -25,6 +25,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
+
+
 ## Running locally in development mode
 
 To get started, just clone the repository and run `yarn add && yarn dev`:
