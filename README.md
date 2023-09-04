@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/khaja-moiz/RESULTSJNTUH/main/public/favicon-light.png?token=GHSAT0AAAAAAB25LH3J3FZNYB24XQMPA6EYY3L2ABQ#gh-light-mode-only" alt="JNTUH RESULTS" width="100">
-  <br>  
+  <br>
   ▲ Vercel    |     Next.js
 </p>
 
@@ -20,18 +20,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 * Grades of All Semesters of Particular Student - Provide your roll number in the inbox and click on Results. The Results of all the semesters will be displayed. The Result of particular semester includes both regular and all suplementary exams.
 * Grades of All Students of Particular Semester - Provide the specific range of Roll Numbers and select the semester. Results of the Roll numbers of specific Range are displayed.
 
- 
+
 
 
 
 
 ## Running locally in development mode
 
-To get started, just clone the repository and run `npm install && npm run dev`:
+To get started, just clone the repository and run `yarn add && yarn dev`:
 
-    git clone https://github.com/khaja-moiz/ResultsJntuh.git
-    npm install
-    npm run dev
+    git clone https://github.com/Saipreetham0/Results-jntuh-theskypedia.git
+    yarn add
+    yarn dev
 
 ## Building and deploying in production
 
@@ -50,8 +50,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 To generate sitemap run node sitemap-generator.js
 
     node sitemap-generator.js
-    
-    
+
+
 
 ## Questions? Need Help? Found a bug?
 
@@ -65,10 +65,10 @@ Also feel free to message me if you have any ideas for small website tools that 
 
 - [▲ Vercel](https://vercel.com/) for fast deployments served from the edge, hosting our website, downloads, and updates.
 - [Next.js](https://nextjs.org/) for development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites
-- [THILAK REDDY](https://github.com/ThilakReddyy) for fast deployment Backend served 
-- [HEMANTH KOTAGIRI](https://github.com/hemanth-kotagiri) for fast deployments RestApi served 
+- [THILAK REDDY](https://github.com/ThilakReddyy) for fast deployment Backend served
+- [HEMANTH KOTAGIRI](https://github.com/hemanth-kotagiri) for fast deployments RestApi served
 
 
-"# JNTUH RESULTS" 
-"# RESULTSJNTUH" 
-"# RESULTSJNTUH" 
+"# JNTUH RESULTS"
+"# RESULTSJNTUH"
+"# RESULTSJNTUH"
